@@ -1,0 +1,95 @@
+body { 
+    font-family: 'Inter', sans-serif;
+    background-color: black; 
+    color: white; 
+  }
+  h1 {
+    margin-left: 30px; /* Adjust the value as needed */
+    margin-top: 96px;
+    font-size: 24px;
+    
+  }
+  
+  h2 {
+    margin-left: 30px; /* Adjust the value as needed */
+    font-size: 24px;
+  }
+  
+  
+  .form-container {
+    display: flex; /* Use flexbox to arrange form groups horizontally */
+    gap: 80px; /* Adds space between form groups */
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  
+  .form-group { 
+    display: flex; /* Align label and input vertically */
+    flex-direction: column; /* Stack label above input */
+    align-items: flex-start; /* Align label and input to the left */
+  }
+  
+  input { 
+    color: white;
+    padding: 5px; 
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 350px;
+    height:20px;
+    margin-top: 10px;
+  
+    
+  }
+  
+  .error { 
+    color: red; 
+    margin-left: 30px;
+  }
+  
+  .success { 
+    color: green; 
+    margin-left: 30px;
+    margin-top: 30px;
+  
+  }
+  
+  .employee { 
+    display: flex; 
+    justify-content: space-between; 
+    background-color: black; 
+    color: white; 
+    border: 1px solid white; 
+    padding: 10px; 
+    margin: 5px 0;
+    margin-left: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width:539px;
+  
+  }
+  
+  button { 
+    width:150px;
+    height:29px;
+    margin-top: 20px;
+    padding: 5px; 
+    cursor: pointer; 
+    background-color: white; 
+    color: black; 
+    border: none; 
+    margin-left: 30px;
+  }
+  
+  #employee-list {
+    display: block; 
+    gap: 10px;
+    
+     
+    
+  }
+  #no{
+    margin-left: 30px;
+    color: #FFFFFF80;
+  
+  }
